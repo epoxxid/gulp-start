@@ -1,0 +1,22 @@
+{
+  "name": "gulp-start",
+  "version": "1.0.0",
+  "description": "Gulp project boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epoxxid/gulp-start.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Roman Kovalev <epoxxid@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epoxxid/gulp-start/issues"
+  },
+  "homepage": "https://github.com/epoxxid/gulp-start#readme"
+}

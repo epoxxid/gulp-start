@@ -4,6 +4,8 @@
   "description": "Gulp project boilerplate",
   "main": "index.js",
   "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +13,10 @@
     "url": "git+https://github.com/epoxxid/gulp-start.git"
   },
   "keywords": [
-    "gulp"
+    "gulp",
+    "start",
+    "from-scratch",
+    "new-project"
   ],
   "author": "Roman Kovalev <epoxxid@gmail.com>",
   "license": "ISC",
@@ -20,9 +25,20 @@
   },
   "homepage": "https://github.com/epoxxid/gulp-start#readme",
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.3",
+    "browserify": "^16.2.3",
     "gulp": "^4.0.0",
-    "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.4.0",
-    "gulp-uglify": "^3.0.1"
-  }
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "node-sass": "^4.11.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {}
 }

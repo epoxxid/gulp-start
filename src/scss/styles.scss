@@ -1,0 +1,26 @@
+.welcome-container {
+	margin: 100px auto;
+	font-family: sans-serif;
+	width: 50%;
+	text-align: center;
+	padding: 20px;
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #666;
+	button {
+		outline: none;
+		border-radius: 3px;
+		font-size: 1.2em;
+		border: 1px solid #ccc;
+		padding: 10px;
+		color: white;
+		text-shadow: 0 0 1px black;
+		background: linear-gradient(#f90, darken(#f90, 10%));
+		margin-top: 20px;
+		cursor: pointer;
+		&:hover {
+			box-shadow: 0 0 10px rgba(black, .5);
+		}
+	}
+}
